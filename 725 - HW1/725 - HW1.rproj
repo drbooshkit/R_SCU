@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="RTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{fb10e91a-4a2b-4332-b1bb-e2f9ede737da}</ProjectGuid>
+    <AssemblyName>725 - HW1</AssemblyName>
+    <Name>725 - HW1</Name>
+    <RootNamespace>725 - HW1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="725 HW1.R">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="RTarget">
+    <Message Text="Executing R script" />
+  </Target>
+</Project>

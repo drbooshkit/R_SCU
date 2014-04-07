@@ -1,0 +1,22 @@
+"x"
+"(Intercept)",191.23157387959
+"Amt.Outstanding.Log",-5.39381230238349
+"Collateral.Seniority",1.98647147725947
+"Coupon.Rate",-0.25522109344237
+"ThreeMonthTBill",-6.14367211159515
+"TermPremium",-3.65504366284684
+"RealGDPGrowth",0.709293863443319
+"ProfitMargin",-1.84519880099586
+"ProfitMargin2",0.0184791660205878
+"EnergyOrUtil",41.6946510001161
+"trainData$\"Month 1\"",-14.2392454591418
+"trainData$\"Month 2\"",-20.5672014998874
+"trainData$\"Month 3\"",7.98554169259357
+"trainData$\"Month 4\"",-2.55913829639239
+"trainData$\"Month 5\"",-2.59906677028464
+"trainData$\"Month 6\"",4.79976494819365
+"trainData$\"Month 7\"",8.20049163793584
+"trainData$\"Month 8\"",-3.553330295831
+"trainData$\"Month 9\"",-6.47819631162484
+"trainData$\"Month 10\"",-17.7805748855265
+"trainData$\"Month 11\"",-5.33766966728972

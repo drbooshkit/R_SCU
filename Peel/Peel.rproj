@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="RTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1e51d4ca-3c67-4776-bec1-000dc0269f9d}</ProjectGuid>
+    <AssemblyName>Peel</AssemblyName>
+    <Name>Peel</Name>
+    <RootNamespace>Peel</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="2weeks only.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="new new.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="one user.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Peel Static User Info.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="summarySE.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Time Series.R">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="RTarget">
+    <Message Text="Executing R script" />
+  </Target>
+</Project>

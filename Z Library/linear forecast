@@ -1,0 +1,6 @@
+library(forecast)
+econsumption = read.csv("e:/datamining/forecasting/energy_temp.csv", header=TRUE)
+plot(Mwh ~ temp, data=econsumption)
+fit  <- lm(Mwh ~ temp, data=econsumption)
+plot(residuals(fit) ~ temp, data=econsumption)
+forecast(fit, newdata=data.frame(temp=c(10,35)))

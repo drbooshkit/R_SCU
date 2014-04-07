@@ -1,0 +1,1 @@
+#extract returns from each day

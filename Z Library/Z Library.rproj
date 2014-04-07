@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="RTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{765ea0f6-9e39-417a-8d16-eaa3866baf02}</ProjectGuid>
+    <AssemblyName>Z Library</AssemblyName>
+    <Name>Z Library</Name>
+    <RootNamespace>Z Library</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="AIDS test Bayes.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Bayes Study Group value.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Eigen System.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ggplot.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Max Likelihood Optmization.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PLot.r">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="systemic riskBayes.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="flip_streak_dist.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FTE distribution.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="get rets.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Load all libraries.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="log-log.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Matrix.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NEURAL NET credit scoring.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="random walk.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rescale.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FORECASTING.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="textToHtml.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Viz.R">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="RTarget">
+    <Message Text="Executing R script" />
+  </Target>
+</Project>
